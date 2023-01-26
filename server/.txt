@@ -1,0 +1,14 @@
+Js
+Material ui(styling)
+Redux toolkit for State
+Stripe para el pago
+Strappy para el backend --> npx create-strapi-app@latest server
+React formic para forms y validaciones
+Unsplash —> fotos libre de copyright que usamos en la app
+
+Para el front: npx create-react-app client
+cd client
+paquetes necesarios: npm i @mui/material @emotion/react @emotion/styled @mui/icons-material react-router-dom@6 react-redux @reduxjs/toolkit formik yup dotenv react-responsive-carousel
+npm run start
+
+tailwind comand: cmd+k cmd+g
