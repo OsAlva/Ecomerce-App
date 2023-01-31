@@ -1,9 +1,16 @@
+ import ShoppingList from "./ShoppingList";
+// import Subscribe from "./Subscribe";
+import MainCarousel from "./MainCarousel";
 
 
+const Home = ()=>{
 
-const Home = () => {
-
-    return <div>Home</div>;
+    return(
+        <div className="home">
+            <MainCarousel/>
+            <ShoppingList/>
+        </div>
+    );
 
 
 };
