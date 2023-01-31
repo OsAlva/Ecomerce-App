@@ -76,7 +76,7 @@ const CartMenu = () => {
                                             alt={item?.name}
                                             width="123px"
                                             height="164px"
-                                            src={`http://localhost:1337${item?.attributes?.image?.data?.atributes?.formats?.medium?.url}`}
+                                            src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
                                             />
                                     </Box>
                                     <Box flex="1 1 60%">
@@ -89,7 +89,7 @@ const CartMenu = () => {
                                                 <CloseIcon />
                                             </IconButton>
                                         </FlexBox>
-                                        <Typography>{item.atributes.shortDescription}</Typography>
+                                        <Typography>{item.attributes.shortDescription}</Typography>
 
                                         {/*AMOUNT */}
                                         <FlexBox m="15px 0">
