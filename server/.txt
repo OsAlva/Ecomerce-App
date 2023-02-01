@@ -1,7 +1,8 @@
 Js
 Material ui(styling)
 Redux toolkit for State
-Stripe para el pago
+Stripe para el pago  ->  npm i @stripe/stripe-js -> client
+                     -> npm i stripe -> server
 Strappy para el backend --> npx create-strapi-app@latest server
 React formic para forms y validaciones
 Unsplash —> fotos libre de copyright que usamos en la app
